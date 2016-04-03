@@ -1,0 +1,14 @@
+/******************************************************************************
+  Digital Media 2 Style Animation      Fall 2013
+  Patrick Vargas                       patrick.vargas@colorado.edu
+******************************************************************************/
+
+#animation {
+  padding-top: 168px;
+  background-color: rgb(255, 255, 255);
+  height: 125px;
+  display:none;
+  -webkit-box-shadow: inset 0 0 10px rgb(66,  52,  44);
+     -moz-box-shadow: inset 0 0 10px rgb(66,  52,  44);
+          box-shadow: inset 0 0 10px rgb(66,  52,  44);
+}

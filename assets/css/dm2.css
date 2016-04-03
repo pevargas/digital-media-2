@@ -1,0 +1,147 @@
+/******************************************************************************
+  Digital Media 2 Style                Fall 2013
+  Patrick Vargas                       patrick.vargas@colorado.edu
+******************************************************************************/
+
+/* Color Scheme BEGIN */
+.white  { color: rgb(255, 255, 255); }
+.yellow { color: rgb(203, 177,   0); }
+.green  { color: rgb(152, 175,  37); }
+.teal   { color: rgb( 22, 132, 113); }
+.brown  { color: rgb( 66,  52,  44); }
+/* Color Scheme END */
+
+body {
+  font-size: 12pt;
+  background-color: rgb( 66,  52,  44);
+  color: rgb(255, 255, 255);
+  margin: 0; padding: 0;
+  font-family: 'Righteous', sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.container { 
+  width: 1024px; margin: 0 auto;
+  display: block;
+}
+
+header, footer {
+  background-color: rgb( 66,  52,  44);
+  padding: 10px;
+  display: block;
+}
+footer a:link    { color: rgb( 22, 132, 113); }
+footer a:visited { color: rgba( 22, 132, 113, 0.8); }
+footer a:hover   { color: rgb(122, 232, 213); }
+footer a:active  { color: rgb(255, 255, 255); }
+
+footer ul {
+  margin: 0; padding: 0; list-style: none; 
+}
+footer ul li { 
+  display: inline; 
+}
+footer ul li:first-child:before { 
+  content: ''; margin: 0; 
+}
+footer ul li:before { 
+  content: '\2666'; margin: 0 0.5em; color: rgb(152, 175,  37); 
+}
+
+header { 
+  font-family: 'Special Elite'; position: fixed; width: 100%; 
+  -webkit-box-shadow: 0px 0px 200px -10px rgba(66, 52, 44, 0.5);
+     -moz-box-shadow: 0px 0px 200px -10px rgba(66, 52, 44, 0.5);
+          box-shadow: 0px 0px 200px -10px rgba(66, 52, 44, 0.5);
+}
+header * { margin: 0; padding: 0; }
+h1 { font-size: 3em; float: left; }
+h2 { float: left; font-size: 3em; padding-left: 1em; }
+
+h1 a:link, h1 a:visited ,h1 a:hover,
+h1 a:active  { color: rgb(152, 175,  37); }
+
+a { text-decoration: none; }
+a:link, a:visited, a:hover, a:active  { color: rgb( 255, 255, 255 ); }
+
+ol { list-style-type: none; }
+p { padding: 0; }
+
+#navbar { clear: both; display: block;}
+#navbar * { margin: 0; padding: 0; }
+#navbar ul { list-style: none; }
+#navbar li { display: inline; }
+#navbar a { 
+  text-decoration: none; 
+  padding: 0.5em 1em 0.25em; margin: 0.2em;
+  display: inline-block;
+/*  background-color: rgb( 22, 132, 113);
+*/  color: rgba( 66,  52,  44, 0.7);
+  transition: all 0.5s ease;
+}
+#navbar a:hover { 
+  color: rgba( 255, 255, 255, 0.7 );
+  -webkit-box-shadow: inset 0 0 10px rgb(66,  52,  44);
+     -moz-box-shadow: inset 0 0 10px rgb(66,  52,  44);
+          box-shadow: inset 0 0 10px rgb(66,  52,  44);
+}
+article { padding-top: 136px; }
+article section {
+  margin: 0; padding: 0em;
+}
+article section:before {
+  position: relative;
+  top: 0; bottom: 0; left: 0; right: 0;
+}
+#proj1, #proj2, #proj3, #navbar a[href="#proj1"], #navbar a[href="#proj2"], 
+#navbar a[href="#proj3"] { background-color: rgb(203, 177,  0)!important; }
+article section:nth-child(even), #navbar li:nth-child(even) a { background-color: rgb(152, 175,  37); }
+article section:nth-child(odd), #navbar li:nth-child(odd) a { background-color: rgb( 22, 132, 113);}
+article section .container { 
+  padding: 4em 1em;
+  -webkit-box-shadow: 0px 0px 200px -10px rgba(66, 52, 44, 0.5);
+     -moz-box-shadow: 0px 0px 200px -10px rgba(66, 52, 44, 0.5);
+          box-shadow: 0px 0px 200px -10px rgba(66, 52, 44, 0.5);
+}
+article section a:after {
+  content: '\003e';
+  font-size: 25px;
+  display: block;
+  margin-top: 2px;
+  color: rgba(66, 52, 44, 0.1);
+  float: right;
+  border-radius: 5em;
+  border: 5px solid rgba(66, 52, 44, 0.1);
+  padding: 0px 9px;
+  transition: all 0.5s ease;
+}
+article section a:hover:after {
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+
+/* Font from Google */
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather Sans Regular'), local('MerriweatherSans-Regular'), url(http://themes.googleusercontent.com/static/fonts/merriweathersans/v1/AKu1CjQ4qnV8MUltkAX3sMoBJSyBiVuloIc8IXLz46o.woff) format('woff');
+}
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Merriweather Sans Bold'), local('MerriweatherSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/merriweathersans/v1/6LmGj5dOJopQKEkt88GowaILZ3_VFR4y34zupljc1bH3rGVtsTkPsbDajuO5ueQw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Righteous'), local('Righteous-Regular'), url(http://themes.googleusercontent.com/static/fonts/righteous/v2/w5P-SI7QJQSDqB3GziL8XT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Special Elite'), local('SpecialElite-Regular'), url(http://themes.googleusercontent.com/static/fonts/specialelite/v3/9-wW4zu3WNoD5Fjka35Jm_n8qdNnd5eCmWXua5W-n7c.woff) format('woff');
+}
