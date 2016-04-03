@@ -1,0 +1,276 @@
+\documentclass[12pt singlecol]{article}
+\usepackage{multicol,caption}
+\usepackage[english]{babel}
+%\usepackage{booktabs}
+\usepackage{float}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage{dblfloatfix}
+\newenvironment{Figure}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
+
+% 1 in Margins
+\usepackage[letterpaper]{geometry}
+\geometry{top=1.0in, bottom=1.0in, left=1.0in, right=1.0in}
+
+% Double Spacing
+\usepackage{setspace}
+\singlespacing
+
+% Set font
+\usepackage{times}
+
+% Fancy-header package to modify header/page numbering
+\usepackage{fancyhdr}
+	\pagestyle{fancy}
+	\fancypagestyle{plain}{\fancyhf{}}
+		\lhead{\today}
+		\chead{Did you hear?}
+		\rhead{\fancyplain{}{Vargas \thepage}}
+		\lfoot{}
+		\cfoot{}
+		\rfoot{}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0pt} 
+	% To make sure we actually have header 0.5in away from top edge 
+	% 12pt is one-sixth of an in. Subtract this from 0.5in to get headsep value
+	\setlength\headsep{0.333in}
+
+
+% Begin Document
+\begin{document}
+
+% Body of Paper
+\title{Did you hear?:\\The dramatic early history of the telephone}
+\author{Patrick Vargas \\CSCI 3002: Human Center Computing Foundations\\Professor M. Eisenberg\\University of Colorado}
+\date{\today}
+
+\thispagestyle{plain}
+\maketitle
+\newpage
+
+\begin{flushleft}
+
+% Change paragraph indentation to 0.5in
+\setlength{\parindent}{0.5in}
+
+\begin{multicols}{2}
+\section{What is the \emph{Telephone}?}
+
+The telephone, coming from Greek roots t\={e}le, ``far'' and phon\={e}, ``sound'', is, ``an instrument designed for the simultaneous transmission and reception of the human voice.'' \cite[para.~1]{Encyc13} Back in 1910 as Casson recalls, ``So entirely has the telephone outgrown the ridicule with which, as many people can well remember, it was first received, that it is now in most places taken for granted, as though it were a part of the natural phenomena of this planet.'' \cite[p.~vi]{Casson10} Today there are billions of these devices around the world, making the telephone the most widely used telecommunications device. \cite[para.~1]{Encyc13}
+
+In the 1876 patent, Alexander Graham Bell explains the basic mechanics of the telephone:
+\begin{quotation}
+[\ldots] I have described a method of, and apparatus for, transmitting two or more telegraphic signals simultaneously along a single wire by the employment of transmitting-instruments, each of which occasions a succession of electrical impulses differing in rate from the others; and of receiving-instruments, each tuned to a pitch at which it will be put in vibration to produce its fundamental note by one only of the transmitting-instruments; and of vibratory circuit-breakers operating to convert the vibratory movement of the receiving-instrument into a permanent make or break (as the case may be) of a local circuit in which is placed a Morse sounder, register, or other telegraphic apparatus.\cite[p.~1]{Bell76}
+\end{quotation}
+
+The telephone is a device with a transmitter and receiver. The transmitter is basically a microphone and the receiver in return is a small speaker.``[\ldots T]he electric current that powered the telephone circuit was generated at the transmitter, by means of an electromagnet activated by the speaker’s voice.''\cite[para.~4]{Encyc13} This meant the power was a direct current and independently provided. ``[\ldots S]ince the 1890s current has been generated at the local switching office. The current is supplied through a two-wire circuit called the local loop. The standard voltage is 48 volts.''\cite[para.~4]{Encyc13} 
+
+To provide this power, but not waste it, the switch hook is utilized. ``In early telephones the receiver was hung on a hook that operated the switch by opening and closing a metal contact. This system is still common, though the hook has been replaced by a cradle to hold the combined handset, enclosing both receiver and transmitter. In some modern electronic instruments, the mechanical operation of metal contacts has been replaced by a system of transistor relays.''\cite[para.~6]{Encyc13}
+
+The telephone also can be wireless, such as the mobile telephone. ``[\ldots This] represent[s] a return to individual power sources in that their low-wattage radio transmitters are powered by a small (e.g., 3.6-volt) battery located in the portable handset.''\cite[para.~5]{Encyc13} ``Communicating by radio waves, they permit a significant degree of mobility within a defined serving region that may range in area from a few city blocks to hundreds of square kilometres.'' \cite[para.~2]{Mobile13}
+
+\begin{Figure}
+	\centering
+	\includegraphics[width=\linewidth]{candlestick}
+	\label{fig:candlestick}
+	\captionof{figure}{The candlestick telephone, including switch hook. \cite{Encyc13}}
+\end{Figure}
+
+\section{Who Invented the \emph{Telephone}?}
+
+``Often credit goes to the inventor of the most practical or best working invention rather than to the original inventor(s).'' \cite[para.~1]{LOC12} In the legal world, it is the inventor who patents the invention first. Antonio Meucci, an immigrant from Italy, first published a caveat in 1871 for his proposed invention of a telephone.``Meucci could not afford the \$250 needed for a definitive patent for his `talking telegraph' so in 1871 filed a one-year renewable notice of an impending patent. Three years later he could not even afford the \$10 to renew it.''\cite[para.~10]{Carroll02} Unfortunately because he could not continue payments on his caveat, Meucci forfeited the idea. \cite[para.~3]{LOC12} 
+
+Later, in 1876, came a race to the patents office and two professors: Elisha Gray from Oberlin College, and Alexander Graham Bell from Boston University. ``Bell filed a patent application, a claim that `I have invented.' Gray, on the other hand, filed a caveat, a document used at the time to claim `I am working on inventing.'''\cite[para.~11]{ATT13} 
+
+Controversy grew from the race as Bell was able to view Gray's caveat, who then added to his patent application. ``[\ldots Bell] was enabled to incorporate a claim to the variable resistance method of speech transmission. The variable resistance claim was written in on the margin of Bell's patent application.''\cite[p.~5]{Coe95}
+
+\begin{Figure}
+	\centering
+	\includegraphics[width=\linewidth]{bell}
+	\label{fig:bell}
+	\captionof{figure}{Alexander Graham Bell \cite[p.~28-29]{Casson10}}
+\end{Figure}
+
+Elisha Gray realized he had shown bell how to construct the transmitter which lead to the invention of the telephone. \cite[p.~5]{Coe95} Unfortunately Gray, ``[\ldots] applied for a caveat of the telephone on the same day Bell applied for his patent of the telephone. [\ldots] The date was February 14, 1876. [Bell] was the fifth entry of that day, while Gray was 39th.'' \cite[para.~4]{LOC12} Because of this technicality, the United States Patent Office awarded Bell the patent. ``Priority in American patent law follows date of invention, not date of filing.''\cite[para.~11]{ATT13}
+
+In 2002, a vote by the House of Representatives found Antonio Meucci the proper inventor of the telephone. ``Calling the Italian's career extraordinary and tragic, the resolution said his `teletrofono', demonstrated in New York in 1860, made him the inventor of the telephone in the place of Bell, who had access to Meucci's materials and who took out a patent 16 years later.''\cite[para.~3]{Carroll02} However, our story of the telephone lies with Alexander Graham Bell.
+
+\section{Who is Alexander Graham Bell?}
+
+Alexander Graham Bell was born in Edinburgh, Scotland in 1847. \cite[para.~1]{MIT00} ``Bell was the son of Alexander Melville Bell, a professor of elocution who had devised a technique called visible speech, a set of symbols that represented speech sounds. The elder Bell used the technique to teach the deaf to speak.'' \cite[para.~3]{ATT13} Growing up in such an environment, Alexander Graham Bell shared his father's passion to work with the deaf and audiology. He also was a great pianist. ``As a teenager, he noticed that a chord struck on a piano in one room would be echoed by a piano in another room. He realized that chords could be transmitted through the air, vibrating at the other end at exactly the same pitch.'' \cite[para.~3]{MIT00} 
+
+When Alexander was about 20, he was teaching visible speech to the deaf in London. ``In 1870, he emigrated with his parents to Canada. The next year, Bell moved to Boston to lecture on visible speech and to teach the deaf. In 1872, he became a professor of elocution at Boston University, where he trained teachers of the deaf and taught private pupils.'' \cite[para.~4]{ATT13} While Alexander Graham Bell was a professor at Boston University, he had a student by the name of Mabel Hubbard. Mabel was deafend as a child by scarlet-fever. Alexander Graham Bell fell in love with her. Mabel was Alexander's main emotional support. In good times and bad, she was there for him. \cite[p.~23]{Casson10} Her father, Gardiner G. Hubbard, was a lawyer and later defend Alexander Graham Bell and his invention, the telephone. \cite[p.~24]{Casson10} Alexander Graham Bell also had another student, George Sander. Both George and Mabel's father became Alexander's financial backers. ``Bell impressed both men with his knowledge of electricity, and by 1874 they had agreed to pay his research expenses in return for a share in any inventions Bell might make.''\cite[para.~5]{ATT13}
+
+One night, Alexander Graham Bell visited his future father-in-law in Cambridge. 
+
+\begin{quotation}
+Bell was illustrating some of the mysteries of acoustics by the aid of a piano. ``Do you know,'' he said to Hubbard, ``that if I singe the note G close to the strings of the piano, that the G-string will answer me?'' ``Well, what then?'' asked Hubbard. ``It is a fact of tremendous importance,'' replied Bell. ``It is an evidence that we may someday have a musical telegraph, which will send as many messages simultaneously over one wire as there are notes on that piano.'' \cite[p.~24]{Casson10}
+\end{quotation}
+
+This interaction helps to demonstrate the thought behind the telephone. By harnessing the natural acoustics of sound, noise can be reproduced. Alexander Graham Bell toyed with the idea of a musical telegraph. He felt that the telegraph with it's Morse code was terribly cumbersome and wanted human speech to be sent over the wire instead. As a professor of the deaf, he felt he could invent a telephone. ```If I can make a deaf-mute talk,' he said, `I can make iron talk.''' \cite[p.~25]{Casson10} 
+
+In the world, ``[t]he need for further innovations, such as a way to send multiple messages over a single telegraph wire, were well known and promised certain rewards.''\cite[para.~6]{ATT13} ``Bell set out to develop a multiple telegraph, using Morse code to convey several messages simultaneously, each at a different pitch.'' \cite[para.~4]{MIT00} 
+
+During the summer of 1874, Alexander Graham Bell pondered over the thought of ``Visible Speech'', a method of seeing vibrations such as the string on a piano. He used the phonautograph and the manometric capsule to observe how sound vibrates. ``He mentioned these experiments to a Boston friend, Dr. Clarence J. Blake, and he, being a surgeon and an aurist, naturally said, `Why don't you use a real ear?''' \cite[p.~26]{Casson10} Dr. Blake cut the ear, with the ear canal and drum intact, from a dead man and gave it to Bell to experiment with. ``Bell took this fragment of a skull and arranged it so that a straw touched the ear-drum at one end and a piece of moving smoked glass at the other.'' \cite[p.~26]{Casson10} When Bell spoke into the ear, the drum made small markings on the glass. This revelation made a big mark on Alexander Graham Bell's life. ```If a disc can vibrate a bone,' he thought, `then an iron disc might vibrate an iron rod, or at least, an iron wire.''' \cite[p.~27]{Casson10} 
+
+\section{Expanding on the \emph{Telegraph}}
+
+``The telegraph transmitted information by an intermittent current.'' \cite[para.~7]{ATT13}. Because of this simplicity, Morse code is utilized by if the current is there or not. Alexander Graham Bell was an amateur when it came to electricity. ``Bell knew just enough about electricity, and not too much. He did not know the possible from the impossible.'' \cite[p.~34]{Casson10} With little knowledge about electricity and nothing about the limits of electricity, he strove to change the world. ``He knew his greatest challenge would be finding a way to convey pitch across a wire.'' \cite[para.~4]{MIT00} While visiting his parent's in 1874, ``Bell hit upon a key intellectual insight: To transmit the voice electrically, one needed what he called an `induced undulating current.' Or to put it another way, what was required was not an intermittent current, but continuous electrical waves of the same form as sound waves.'' \cite[para.~7]{ATT13}
+
+His financial bakers and other pressures discouraged Bell to continue his work on the telephone. ``He struggled to find time to develop it among competing demands, including his teaching duties and his efforts \textemdash pushed by Hubbard \textemdash to perfect a multiple telegraph. As Bell was falling in love with Hubbard’s daughter, Mabel, he felt he could ill afford to ignore the older man's wishes.'' Then came a meeting of grave importance with Joseph Henry, ``[\ldots] who knew more of the theory of electrical science than any other American.'' \cite[p.~29]{Casson10} This meeting would change Alexander Graham Bell's focus.
+
+\begin{quotation}
+``You are in possession of the germ of a great invention,'' said Henry, ``and I would advise you to work at it until you have made it complete.''
+
+``But,'' replied Bell, ``I have not got the electrical knowledge that is necessary.''
+
+``Get it,'' responded the aged scientist.\cite[p.~30]{Casson10}
+\end{quotation}
+
+Those two words were enough to get the inventor back on track to inventing the telephone.
+
+\section{The Invention of the \emph{Telephone}}
+
+It was in his new Boston lab in June of 1875 that the telephone was born. ``[I]t was the first time in the history of the world that a complete sound had been carried along a wire, reproduced perfectly at the other end and heard by an expert acoustics.'' \cite[p.~12]{Casson10} The sound was a reed that twanged from his assistant, Thomas A. Watson. ``It was absurd. It was incredible. It was something which neither wire nor electricity had been known to do before.'' \cite[p.~14]{Casson10}
+
+After forty weeks of weird noises emanating from the newly created telephone, they had finally got it. ``[\ldots O]n March 12, he tested his device, speaking into the phone to his associate, Thomas Watson, when he said, `Mr. Watson, come here. I want to see you.''' \cite[para.~5]{MIT00} ``Watson, who was at the lower end of the wire, in the basement, dropped the receiver and rushed with wild joy up three flights of stairs to tell the glad tidings to Bell. `I can hear you!' he shouted breathlessly. `I can hear the \emph{words}.'''\cite[p.~32-33]{Casson10}
+
+While Alexander Graham Bell and his associated were able to create this new invention, the transmitter used in this experiment was not invited by either. 
+
+\begin{quotation}
+It was, rather, a liquid contact transmitter described by Elisha Gray. In the liquid contact transmitter a needle dips into a small cup of water made conductive by the addition of a little acid. The needle is attached to a diaphragm which causes the needle to vibrate in accordance with the speech impinging on it. The vibrating needle varies the resistance of the battery circuit and thus the undulating current necessary for speech transmission is established. \cite[p.~2]{Coe95}
+\end{quotation}
+
+Bell knew this method should not be offered to the public. He later changed to an electromagnetic transmitter. \cite[p.~2]{Coe95}
+
+\begin{Figure}
+	\centering
+	\includegraphics[width=\linewidth]{patent}
+	\label{fig:patent}
+	\captionof{figure}{Figures from Bell's 1876 patent \emph{Improvement in Telegraphy} \cite[p.~1]{Bell76}}
+\end{Figure}
+
+\section{Reception of the Invention}
+
+Two months after the first intelligible phrase uttered by the new invention, the Centennial Exposition in Philadelphia opened it's doors. Being the humble man he was, Alexander Graham Bell felt too poor to visit the exposition and show off his telephone. \cite[p.~35]{Casson10} Mr. Hubbard being a commissioner of the Centennial Exposition encouraged Bell to go. It wasn't until Mabel Hubbard and her sweet heart that made Bell decide to go.
+
+\begin{quotation}
+But one Friday afternoon, toward the end of June, his sweetheart, Mabel Hubbard, was taking the train for the Centennial; and he went to the depot to say good-bye. Here Miss Hubbard learned for the first time that Bell was not to go. She coaxed and pleaded, without effect. Then, as the train was starting, leaving Bell on the platform, the affectionate young girl could no longer control her feelings and was overcome by a passion of tears. At this the susceptible Bell, like a true Sir Galahad, dashed after the moving train and sprang aboard, without ticket of baggage, oblivious of his classes and his poverty and of all else except this one maiden's distress. ``I never saw a man,'' said Watson, ``so much in love as Bell was.'' \cite[p.~36]{Casson10}
+\end{quotation}
+
+When Bell arrived at the Exposition, he and his invention where thrown into the corner, not to be bothered. As the exposition went on, people didn't give Bell the time of day. One of the judges of the exposition was none other than the Emperor of Brazil, Dom Pedro de Alcantara. \cite[p.~38]{Casson10} ``[\ldots] Dom Pedro had once visited Bell's class of deaf-mutes at Boston University. He was especially interested in such humanitarian work, and had recently helped to organize the first Brazilian school for deaf-mutes at Rio de Janeiro.'' \cite[p.~38]{Casson10} Because of this previous engagement, the telephone was finally given the spotlight is sorely needed. 
+
+When Bell demonstrated his invention, ``[t]he emperor exclaimed, `My God! It talks!'''\cite[para.~13]{ATT13} William Thomson, a British physicist, ``[\ldots] took news of the discovery across the ocean and proclaimed it `the greatest by far of all the marvels of the electric telegraph.'''\cite[para.~13]{ATT13} Joseph Henry, who gave Bell the encouragement he needed, also was a judge at the Exposition. ``He stopped to listen, and, as one of the bystanders afterwards said, no one could forget the look of awe that came into his face as he heard that iron disc talking with a human voice. `This,' said he, `comes nearer to overthrowing the doctrine of the conservation of energy than anything I ever saw.''' \cite[p.~39]{Casson10}
+
+The judges gave Alexander Graham Bell a Certificate of Award. ```Mr. Bell has achieved a result of transcendent scientific interest,' wrote Sir William Thomson. `I heard it speak distinctly several sentences. \ldots I was astonished and delighted. \ldots It is the greatest marvel hitherto achieved by the electric telegraph.''' \cite[p.~41]{Casson10}
+
+\begin{quotation}
+A year after Bell's initial public demonstration, he placed the world's first phone call over telegraph wires between two towns in Ontario, Canada \textemdash a span of eight miles. Just two months later, the long-distance reach of telephone technology was expanded to 143 miles.\cite[para.~7]{MIT00}
+\end{quotation}
+
+In these early days of telephone, Alexander Graham Bell knew what the new invention meant to the world. ``He wrote in 1878: `I believe in the future wires will unite the head offices of telephone companies in different cities, and a man in one part of the country may communicate by word of mouth with another in a distant place.'''\cite[para.~16]{ATT13}
+
+\section{Celebration of the \emph{Telephone}}
+
+``In 1877, [Alexander Graham Bell] formed the Bell Telephone Company, and in the same year married Mabel Hubbard and embarked on a yearlong honeymoon in Europe.''\cite[para.~1]{LOC00} Alexander Graham Bell left the business in the hands of his financial backers, Hubbard and Sanders, ``[\ldots] and went on to a long productive career as a scientist and inventor.''\cite[para.~15]{ATT13} 
+
+\begin{quotation}
+[\ldots H]e was driven by a genuine and rare intellectual curiosity that kept him regularly searching, striving, and wanting always to learn and to create. He would continue to test out new ideas through a long and productive life. He would explore the realm of communications as well as engage in a great variety of scientific activities involving kites, airplanes, tetrahedral structures, sheep-breeding, artificial respiration, desalinization and water distillation, and hydrofoils. \cite[para.~2]{LOC00}
+\end{quotation}
+
+\section{Commercial Use of the \emph{Telephone}}
+The first commercial telephone was a single unit which held both the reciever and transmitter. Unfortunately, this poorly designed product meant you had one piece to talk into and listen from. 
+
+\begin{quotation}
+This, of course, was very frustrating to the users. In an early ad, Bell attempted to instruct users in the proper method of operation: ``After speaking, transfer the telephone from the mouth to the ear very promptly \ldots much trouble is caused from both parties speaking at the same time. When you are not speaking, you should be listening.''\cite[p.~2]{Coe95}
+\end{quotation}
+
+In less than a century, the telephone had reached millions of people. ``Throughout the 20th century, landline telephone accessibility and usage increased dramatically. Just over 90 years after the first long-distance telephone line was established, landline telephone service reached 100 million consumers worldwide.''\cite[para.~1]{Belh13}
+
+\section{Criticisms of the \emph{Telephone}}
+
+Not everyone found the invention of the telephone as a great achievement. Many writers of the time explained the telephone was intrusive on their privacy. 
+
+\begin{quotation}
+``Robert Louis Stevenson, upon seeing an American-made telephone in Honolulu in 1899, wrote to a local newspaper commenting on the problems of accepting the telephone. He characterized it as: `this interesting instrument \ldots into our bed and board, into our business and bosoms \ldots bleating like a deserted infant.'' \cite[p.~8]{Coe95}
+\end{quotation}
+
+One notable criticism comes from Mark Twain in the Christmas season of 1890:
+
+\begin{quotation}
+It is my heart-warm and world-embracing Christmas hope and aspiration that all of us\textemdash the high, the low, the rich, the poor, the admired, the despised, the loved, the hated, the civilized, the savage\textemdash may eventually be gathered together in a heaven of everlasting rest and peace and bliss\textemdash except the inventor of the telephone.\cite[p.~8]{Coe95}
+\end{quotation}
+
+Mr. Hubbard wrote to Twain humorously in response to his Christmas piece. Twain responded with an explanation in which he tells Hubbard he despises the Hartford telephone. ``Here we have been hollering `Shut up' to our neighbors for centuries, and now you fellows come along and seek to complicate matters.'' \cite[p.~8]{Coe95}
+
+In these early days of the telephone, many citizens thought, just like the telegraph, would be a fad. ``Others thought it was outright supernatural and maybe ungodly to convey the human voice by electricity over wires.''\cite[p.~8]{Coe95} Businessmen of Philadelphia also rejected the telephone, exclaiming, ``Bless my soul! What's this, what's this? Telephone, do you say? we don't want it. Take it away!''\cite[p.~9]{Coe95}
+
+\begin{Figure}
+	\centering
+	\includegraphics[width=\linewidth]{belltelephone}
+	\label{fig:telephone}
+	\captionof{figure}{Photographs of Bell's public invention \cite[p.~21-22]{Casson10}}
+\end{Figure}
+
+\section{Expanding on the \emph{Telephone}}
+
+From Alexander Graham Bells primitive version of the telephone, many more inventers continued to improve upon it. 
+
+\begin{quotation}
+Within 20 years of the 1876 Bell patent, the telephone instrument, as modified by Thomas Watson, Emil Berliner, Thomas Edison, and others, acquired a functional design that has not changed fundamentally in more than a century. Since the invention of the transistor in 1947, metal wiring and other heavy hardware have been replaced by lightweight and compact microcircuitry. Advances in electronics have improved the performance of the basic design, and they also have allowed the introduction of a number of “smart” features such as automatic redialing, call-number identification, wireless transmission, and visual data display. Such advances supplement, but do not replace, the basic telephone design \cite[para.~3]{Encyc13}
+\end{quotation}
+
+\section{The Current State of the \emph{Telephone}}
+
+More and more telephones were installed across the nation and the world. Telephones were in homes and business, schools and churches and persevere to this day. Telephones have permeated every corner of the globe. ``In 2005 and 2006, the number peaked at 20 fixed-lines for every 100 people [across the world]. In developed nations, [\ldots] numbers peaked in the years 2000 and 2001, with 57 fixed-lines per 100 people.''\cite[para.~3]{Belh13} However, the death of the landline telephone may be on the horizon:
+
+\begin{quotation}
+Statistics reveal that landline telephone usage has begun to decrease with the growth of wireless technology. In 1995, wireless cell phone subscriptions totaled 33.8 million in the United States. In 2008, subscriptions ballooned to 270.3 million, increasing by 699 percent over the 13 year period. During this time, 26.6 percent of American homes deserted their landline telephone entirely. Nearly 16 percent of Americans now receive all or almost all of their calls on wireless devices. From 2005 to 2010, landline-only homes dropped from 34.4 percent to 12.9 percent. These statistics reveal that, with the emergence of wireless telecommunication technology, landline telephones may become obsolete in upcoming decades.\cite[para.~3]{Belh13}
+\end{quotation}
+
+\end{multicols}
+
+% Works Cited
+\newpage % This is needed if the book class is used, to place the anchor in the correct page,
+                 % because the bibliography will start on its own page.
+                 % Use \clearpage instead if the document class uses the "oneside" argument
+\renewcommand*{\refname}{} % This will define heading of bibliography to be empty, so you can...
+\section{References}     % ...place a normal section heading before the bibliography entries.
+% Indenting the bibliography
+\def\bibindent{1em}
+\begin{thebibliography}{99\kern\bibindent}
+\makeatletter
+\let\old@biblabel\@biblabel
+\def\@biblabel#1{\old@biblabel{#1}\kern\bibindent}
+\let\old@bibitem\bibitem
+\def\bibitem#1{\old@bibitem{#1}\leavevmode\kern-\bibindent}
+\makeatother
+
+	\bibitem{ATT13} AT\&T (2013). \emph{Inventing the telephone}. Retrieved from \textless\texttt{http://www.corp.att.com/history/inventing.html}\textgreater 
+
+	\bibitem{Belh13} Belhumeur, K. (2013) \emph{Landline Telephone Facts} Salon Media Group. Retrieved from \textless\texttt{http://techtips.salon.com/landline-telephone-20646.html}\textgreater
+
+	\bibitem{Bell76} Bell, A.G. (1876). \emph{U.S. Patent No. 174,465}. Washington, D.C.: United States Patent Office. 
+
+	\bibitem{Carroll02} Carroll, R. (2002, June 17). \emph{Bell did not invent the telephone, US rules: Scot accused of finding fame by stealing Italian's ideas}. The Guardian. Retreived from \textless\texttt{http://www.guardian.co.uk/world/2002/jun/17\\/humanities.internationaleducationnews}\textgreater
+
+	\bibitem{Casson10} Casson, H. (1910). \emph{The history of the telephone.} Chicago, IL: A. C. McClurg \& Co., Publishers.
+
+	\bibitem{Coe95} Coe, L. (1995). \emph{The telephone and its several inventors}. Jefferson, NC: McFarland \& Company, Inc.
+
+	\bibitem{LOC00} Library of Congress. (2000). \emph{The Alexander Graham Bell family papers: Alexander Graham Bell as inventor and scientist}. American Memories. Washington, D.C.: Manuscript Division, Library of Congress. Retrieved from \textless\texttt{http://memory.loc.gov/ammem/bellhtml/bellinvent.html}\textgreater
+
+	\bibitem{LOC12} Library of Congress. (2012). \emph{Who is credited as inventing the telephone? Was it Alexander Graham Bell, Elisha Gray, or Antonio Meucci?}. Science Reference Services. Washington, D.C. \textless\texttt{http://www.loc.gov/rr/scitech/mysteries/telephone.html}\textgreater
+
+	\bibitem{MIT00} Massachusetts Institute of Technology. (2000). \emph{Alexander Graham Bell}. Inventor of the Week. Retrieved from \textless\texttt{ http://web.mit.edu/invent/iow/graham\_bell.html} \textgreater
+
+	\bibitem{Mobile13} mobile telephone. (2013). In Encyclop\ae dia Britannica. Retrieved from \textless\texttt{http://www.britannica.com/EBchecked/topic/1482373/mobile-telephone}\textgreater
+
+	\bibitem{Encyc13} telephone. (2013). In Encyclop\ae dia Britannica. Retrieved from \textless\texttt{http://www.britannica.com/EBchecked/topic/585993/telephone}\textgreater
+
+\end{thebibliography}
+
+\end{flushleft}
+\end{document}
